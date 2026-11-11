@@ -1,6 +1,8 @@
 # AuthRight agent skills
 
-Standalone coding-agent skills for reading IAM in a repository. They do **not** require `@authright/cli` or `authright init`. Inspired by `@authright/cli`.
+> Inspired by `@authright/cli`.
+
+Standalone coding-agent skills for reading IAM in a repository. 
 
 | Skill | Question | Default report |
 | --- | --- | --- |
