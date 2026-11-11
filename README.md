@@ -2,7 +2,8 @@
 
 > Inspired by `@authright/cli`.
 
-Standalone coding-agent skills for reading IAM in a repository. 
+Standalone coding-agent skills that **scan** a repository’s identity and access code, **understand** how IAM works today, and **analyze** what is wrong — from source evidence.
+
 
 | Skill | Question | Default report |
 | --- | --- | --- |
