@@ -1,0 +1,23 @@
+{
+  "name": "authright",
+  "description": "Scan and diagnose a repository's identity and access (IAM) code from source evidence. authright-scan maps how IAM works today; authright-doctor finds what is wrong and suggests a fix for each finding.",
+  "version": "0.1.0",
+  "author": {
+    "name": "AuthRight"
+  },
+  "homepage": "https://github.com/authright-harness/authright-skills",
+  "repository": "https://github.com/authright-harness/authright-skills",
+  "keywords": [
+    "iam",
+    "identity",
+    "authentication",
+    "authorization",
+    "access-control",
+    "security",
+    "code-review"
+  ],
+  "skills": [
+    "./authright-scan",
+    "./authright-doctor"
+  ]
+}
