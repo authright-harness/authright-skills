@@ -15,6 +15,33 @@ Standalone coding-agent skills that **scan** a repository’s identity and acces
 
 ## Install
 
+### Claude Code (plugin)
+
+This repository is a Claude Code plugin marketplace. In Claude Code:
+
+```
+/plugin marketplace add authright-harness/authright-skills
+/plugin install authright@authright-skills
+```
+
+On Claude Code 2.1.275 or later, one line does both:
+
+```
+/plugin install authright --marketplace authright-harness/authright-skills
+```
+
+Then run `/authright:authright-scan` or `/authright:authright-doctor`.
+
+### Any agent (skills CLI)
+
+```bash
+npx skills add authright-harness/authright-skills
+```
+
+The [skills](https://skills.sh) CLI installs into Claude Code, Codex, Cursor, Copilot, Gemini CLI, and other agents it detects.
+
+### Manual copy
+
 Copy each skill folder into the skills / prompts / plugins path your host uses (Cursor, Codex, Claude Code, OpenCode, and similar). Reload or restart the host if it only discovers skills at session start.
 
 ```bash

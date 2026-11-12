@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "authright-skills",
+  "description": "AuthRight agent skills for reading and diagnosing IAM code.",
+  "owner": {
+    "name": "AuthRight"
+  },
+  "plugins": [
+    {
+      "name": "authright",
+      "description": "Scan and diagnose a repository's identity and access (IAM) code from source evidence.",
+      "source": "./",
+      "category": "security"
+    }
+  ]
+}
