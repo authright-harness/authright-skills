@@ -7,6 +7,7 @@
   },
   "homepage": "https://github.com/authright-harness/authright-skills",
   "repository": "https://github.com/authright-harness/authright-skills",
+  "license": "Apache-2.0",
   "keywords": [
     "iam",
     "identity",
